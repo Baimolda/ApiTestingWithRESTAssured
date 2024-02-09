@@ -6,8 +6,8 @@ import static io.restassured.RestAssured.*;
 public class FirstTest extends TestConfig {
     @Test
     public void myFirstTest(){
-        given().
+        given().log().uri().
                 when().get(SWAPI_GET_PEOPLE + "1").
-                then().statusCode(200);
+                then().log().body().statusCode(200);
     }
 }
