@@ -1,7 +1,6 @@
 package constants;
 
-import static constants.Constants.Path.SWAPI_PATH;
-import static constants.Constants.Servers.*;
+import static constants.Constants.Servers.JSON_PLACEHOLDER_URL;
 
 public class Constants {
 
