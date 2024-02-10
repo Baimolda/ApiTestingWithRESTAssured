@@ -39,7 +39,7 @@ public class JsonPlaceHolderTest extends TestConfig {
                 "\t\"userId\": 1\n" +
                 "}";
 
-        given().body(postJsonBody).log().uri().
+        given().body(postJsonBody).log().all().
                 when().post(JSONPLACEHOLDER_POST).
                 then().log().body().statusCode(201);
     }
@@ -60,7 +60,7 @@ public class JsonPlaceHolderTest extends TestConfig {
                 "\t\t\t  </Employee>\n" +
                 "\t\t\t</Company>\n" +
                 "\t\t\t";
-        given().body(postXmlBody).log().uri().
+        given().spec(requestSpecificationXml).body(postXmlBody).log().all().
                 when().post("").
                 then().log().body().statusCode(200);
     }
