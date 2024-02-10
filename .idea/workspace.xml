@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89b48bcb-0f66-4ee1-9b0a-a5511a89593a" name="Changes" comment="Parsers Xml to Json">
+    <list default="true" id="89b48bcb-0f66-4ee1-9b0a-a5511a89593a" name="Changes" comment="Add Path URl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/TestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JsonPlaceHolderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonPlaceHolderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,22 +49,32 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JsonPlaceHolderTest.PostWithXml">
-    <configuration name="JsonPlaceHolderTest.Delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FirstTest.getSomeFieldInResponseWithIndexAssertion">
+    <configuration name="FirstTest.getSomeFieldInResponseAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiTestingWithRESTAssured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonPlaceHolderTest" />
-      <option name="METHOD_NAME" value="Delete" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="getSomeFieldInResponseAssertion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonPlaceHolderTest.GET" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.getSomeFieldInResponseWithIndexAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestingWithRESTAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="getSomeFieldInResponseWithIndexAssertion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonPlaceHolderTest.Delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiTestingWithRESTAssured" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JsonPlaceHolderTest" />
-      <option name="METHOD_NAME" value="GET" />
+      <option name="METHOD_NAME" value="Delete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,23 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonPlaceHolderTest.Put" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ApiTestingWithRESTAssured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonPlaceHolderTest" />
-      <option name="METHOD_NAME" value="Put" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JsonPlaceHolderTest.PostWithXml" />
+        <item itemvalue="JUnit.FirstTest.getSomeFieldInResponseWithIndexAssertion" />
+        <item itemvalue="JUnit.FirstTest.getSomeFieldInResponseAssertion" />
         <item itemvalue="JUnit.JsonPlaceHolderTest.PostWithJson" />
+        <item itemvalue="JUnit.JsonPlaceHolderTest.PostWithXml" />
         <item itemvalue="JUnit.JsonPlaceHolderTest.Delete" />
-        <item itemvalue="JUnit.JsonPlaceHolderTest.Put" />
-        <item itemvalue="JUnit.JsonPlaceHolderTest.GET" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707550215042</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Path URl">
+      <option name="closed" value="true" />
+      <created>1707555264237</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707555264237</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +205,7 @@
     <MESSAGE value="Get Request Add test and Create new class" />
     <MESSAGE value="Delete Reqeust add to test" />
     <MESSAGE value="Parsers Xml to Json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parsers Xml to Json" />
+    <MESSAGE value="Add Path URl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Path URl" />
   </component>
 </project>
