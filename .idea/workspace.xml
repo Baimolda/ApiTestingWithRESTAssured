@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89b48bcb-0f66-4ee1-9b0a-a5511a89593a" name="Changes" comment="Add Logging Response Request">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JsonPlaceHolderTest.java" afterDir="false" />
+    <list default="true" id="89b48bcb-0f66-4ee1-9b0a-a5511a89593a" name="Changes" comment="Get Request Add test and Create new class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JsonPlaceHolderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonPlaceHolderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JsonPlaceHolderTest.GET">
+  <component name="RunManager" selected="JUnit.JsonPlaceHolderTest.Delete">
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiTestingWithRESTAssured" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,6 +69,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JsonPlaceHolderTest.Delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestingWithRESTAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonPlaceHolderTest" />
+      <option name="METHOD_NAME" value="Delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JsonPlaceHolderTest.GET" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiTestingWithRESTAssured" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,8 +89,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JsonPlaceHolderTest.Put" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestingWithRESTAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonPlaceHolderTest" />
+      <option name="METHOD_NAME" value="Put" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonPlaceHolderTest.Delete" />
+        <item itemvalue="JUnit.JsonPlaceHolderTest.Put" />
         <item itemvalue="JUnit.JsonPlaceHolderTest.GET" />
         <item itemvalue="JUnit.FirstTest" />
         <item itemvalue="JUnit.FirstTest.myFristTest" />
@@ -127,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707507437264</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Get Request Add test and Create new class">
+      <option name="closed" value="true" />
+      <created>1707543803364</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707543803364</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +177,7 @@
     <MESSAGE value="First Test Commit" />
     <MESSAGE value="Create Configuration Classes" />
     <MESSAGE value="Add Logging Response Request" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Logging Response Request" />
+    <MESSAGE value="Get Request Add test and Create new class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get Request Add test and Create new class" />
   </component>
 </project>
